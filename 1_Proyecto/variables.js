@@ -36,3 +36,6 @@ for(var i = 0; i<3 ; i++){
     let variableLet = "Soy la segunda variable LET";
 }
 console.log(variableLet);
+
+var num = 4;
+console.log(typeof num);
