@@ -24,3 +24,14 @@ const movil = {
     altura : 10
 };
 
+
+//Listas , array o arreglo
+const lista = [1,"hola", null];
+const lista2 = new Array(1,"hola", null);
+const lista3 = new Array(3);
+
+console.log(lista);
+console.log(lista2);
+console.log(lista3);
+
+
