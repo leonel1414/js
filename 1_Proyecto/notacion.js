@@ -34,4 +34,22 @@ console.log(lista);
 console.log(lista2);
 console.log(lista3);
 
+//Objetos
+const movil1 = {
+    altura: 10,
+    anchura:6 ,
+    marca: "Xiaomi",
+    isWhite: false,
+    contactos: ["Gorka", "Martin"],
+    tarjeta:{
+        marca: "Sandisk",
+        alamenamiento: 32
+    }
+};
+
+
+console.log(movil1.tarjeta.marca);
+console.log(movil1.altura);
+
+
 
