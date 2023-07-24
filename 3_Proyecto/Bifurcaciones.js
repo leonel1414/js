@@ -8,6 +8,8 @@ if(efectivo < saldo){
     console.log("Saldo insuficiente");
 }
 
+
+//if - else  if else
 let nota = 10;
 
 if(nota === 10){
@@ -18,4 +20,22 @@ if(nota === 10){
     console.log("No estudiaste");
 }else{
     console.log("Error");
+}
+
+
+//Sentencia switch
+
+switch(nota){
+    case 10:
+        console.log("Buen trabajo, ¡Sobresaliente!");
+        break
+    case 7:
+        console.log("Buen trabajo, pero podrias haberlo echo mejor");
+        break
+    case 1:
+        console.log("No estudiaste");
+        break
+    default:
+        console.log("Error");
+        break
 }
