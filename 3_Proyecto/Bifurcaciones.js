@@ -39,3 +39,25 @@ switch(nota){
         console.log("Error");
         break
 }
+
+//COMPARACIONES
+
+// == solo compara el valor
+// === compara el valor y el tipo
+
+/*
+let a = 5;
+let b = "5";
+
+consolo.log(typeof a);
+consolo.log(typeof b);
+
+
+if(a == b){
+    consolo.log("a es igual a b - Debil");
+}
+
+if(a === b){
+    consolo.log("a es igual a b - Fuerte");
+}
+*/
