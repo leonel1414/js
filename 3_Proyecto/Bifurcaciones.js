@@ -45,6 +45,11 @@ switch(nota){
 // == solo compara el valor
 // === compara el valor y el tipo
 
+// != diferentes en valor
+// !== diferentes en valor y tipo
+
+
+
 /*
 let a = 5;
 let b = "5";
@@ -61,3 +66,18 @@ if(a === b){
     consolo.log("a es igual a b - Fuerte");
 }
 */
+
+//Casos muy especificos - break , continue
+
+let lista = [1,2,3,4,5,6,7,8,9];
+
+for(let i = 0; i< lista.length; i++){
+
+    if(lista[i] === 3){
+        continue;
+    }
+    if(lista[i] > 5){
+        console.log(lista[i]);
+        break;
+    }
+}
