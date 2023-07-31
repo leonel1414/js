@@ -1,5 +1,5 @@
 // Qué son las funciones, cómo se declaran y cómo se utilizan
-const nom = "Gorka"
+const nom = "Leonel"
 
 // saludar("Miguel")
 saludar(nom)
